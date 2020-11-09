@@ -1,0 +1,11 @@
+White Page Q2:
+
+So our job was to write the prefix stack instead of a postfix or infix stack and then show how it 
+would work in main. The way we did this was through making 2 functions, one being operand and another 
+named evalPrefix. Majority of the function is done through evalPrefix, which has a for loop to go through 
+the entirety of the size of the string. which was and then check to whether it was a decimal and return 
+the number as true as long as there still is chars and to ensure the string is converted into a number from 
+string is you minus '0' from it to switch it (ASCII values). Create two operators to call the top of the 
+stack and the next value needed for the operation have a switch for each of the operations + - * /.
+The int main was used to create the string used to be processed by this prefix stack, I tried multiple operations
+together as well to ensure the prefix stack worked.

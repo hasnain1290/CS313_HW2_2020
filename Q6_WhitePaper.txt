@@ -1,0 +1,13 @@
+Q6 White Paper
+
+So the job that we were tasked with this time was reversing an string from an inputfile for example
+yes should be sey or death is htaed. So for this we were told to use an array-based stack, so I 
+created a class called Stack to hold the variables needed including the top the limit of the array 
+and the char* array. From there, two important functions are checking whether the array is full or 
+whether the array is empty so we made an IsFull and an IsEmpty functions who both take a (Stack* stack) 
+argument. Next we start the stack with the StartStack function to create the stack and allocating the 
+memory needed by multiplying both the stack's limit and the sizeofchars. There is also the required 
+push on the stack and pop off the stack. Lastly the most important function the strswitch is used 
+to for loop through the length of the string provided, if there isn't a space then you add onto 
+the stack, while the stack is not 0 cout the top of the stack and pop the top of 
+the stack until the stack is empty.
